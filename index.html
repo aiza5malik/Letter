@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kiki</title>
+    
+</head>
+<body>
+    <div class="container">
+
+        <img src="img1.png" id="myImage" alt="envelope" href="letter.html" style="padding-top: 350px; padding-left: 550px; height: 212px; width: 212px;">
+    </div>
+
+</body>
+
+<script>
+    var image = document.getElementById("myImage");
+
+// Add a click event listener to the image
+image.addEventListener("click", function() {
+  // Navigate to another page when the image is clicked
+  window.location.href = "letter.html";
+});
+    </script>
+
+</html>

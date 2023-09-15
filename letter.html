@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: violet;
+        }
+
+        img {
+            width: 100%; /* Make the image width 100% of its container */
+            max-width: 100%; /* Ensure the image doesn't exceed its original width */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        /* Media query for screens with a maximum width of 600px (typical phone size) */
+        @media (max-width: 600px) {
+            img {
+                padding-left: 10px; /* Adjust padding for smaller screens */
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <img src="letter.png" alt="letter" >
+</body>
+</html>
